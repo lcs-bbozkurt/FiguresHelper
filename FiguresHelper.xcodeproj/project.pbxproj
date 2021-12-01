@@ -12,6 +12,7 @@
 		C1CE7A062757C458008868BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CE7A052757C458008868BE /* Assets.xcassets */; };
 		C1CE7A092757C458008868BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CE7A082757C458008868BE /* Preview Assets.xcassets */; };
 		C1CE7A102757C707008868BE /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE7A0F2757C707008868BE /* CircleView.swift */; };
+		C1CE7A122757CEE8008868BE /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE7A112757CEE8008868BE /* RectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C1CE7A052757C458008868BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CE7A082757C458008868BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1CE7A0F2757C707008868BE /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C1CE7A112757CEE8008868BE /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C1CE7A032757C457008868BE /* ContentView.swift */,
 				C1CE7A0F2757C707008868BE /* CircleView.swift */,
+				C1CE7A112757CEE8008868BE /* RectangleView.swift */,
 				C1CE7A052757C458008868BE /* Assets.xcassets */,
 				C1CE7A072757C458008868BE /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				C1CE7A102757C707008868BE /* CircleView.swift in Sources */,
 				C1CE7A042757C457008868BE /* ContentView.swift in Sources */,
+				C1CE7A122757CEE8008868BE /* RectangleView.swift in Sources */,
 				C1CE7A022757C457008868BE /* FiguresHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

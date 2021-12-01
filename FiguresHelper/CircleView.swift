@@ -50,6 +50,7 @@ struct CircleView: View {
                 // To "bind" means that when the control changes, the proprety's value changes
                 Slider(value: $radius,
                        in: 0.0...100.0,
+                       step: 1.0,
                        label: {
                     Text("Radius")
                 },
