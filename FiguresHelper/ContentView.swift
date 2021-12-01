@@ -15,7 +15,7 @@ struct ContentView: View {
                 .padding()
             Text("Radius")
                 .font(.title3)
-                .padding()
+                .padding(.leading, 10)
             HStack {
                 Spacer()
                 Text("25.0")
