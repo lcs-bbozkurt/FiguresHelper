@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct RectangleView: View {
-    @State var length: Double = 00.00
-    @State var width: Double = 00.00
+    @State var lengthValue: Double = 50.00
+    @State var widthValue: Double = 50.00
     
     var area: Double {
-        return length * width
+        return lengthValue * widthValue
     }
     
     
@@ -24,12 +24,12 @@ struct RectangleView: View {
                 .bold()
             HStack {
                 Spacer()
-                Text("\(length)")
+                Text("\(lengthValue)")
                     .font(.title2)
                     .bold()
                 Spacer()
             }
-            Slider(value: $length,
+            Slider(value: $lengthValue,
                    in: 0.0...100.0,
                    step: 1.0,
                    label: {
@@ -41,18 +41,16 @@ struct RectangleView: View {
                    maximumValueLabel: {
                 Text("100.0")
             })
-
-            
             Text("Width:")
                 .bold()
             HStack {
                 Spacer()
-                Text("\(width)")
+                Text("\(widthValue)")
                     .font(.title2)
                     .bold()
                 Spacer()
             }
-            Slider(value: $width,
+            Slider(value: $widthValue,
                    in: 0.0...100.0,
                    step: 1.0,
                    label: {

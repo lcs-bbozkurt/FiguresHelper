@@ -14,8 +14,7 @@ struct CircleView: View {
     // "radius" is the name
     // "Double" is the data type
     // By adding = 15.00 we are providing a default value.
-    // input - we need this form the user
-    // we want SwiftUI to update the user interface based on what the user selects.
+    // input - we need this form the user we want SwiftUI to update the user interface based on what the user selects.
     // To do this, we use a special piece of syntax
     // called a "proprety wrapper"
     // @State
